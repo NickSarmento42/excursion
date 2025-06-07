@@ -8,7 +8,8 @@
 }
 
 body{
-    
+    margin-bottom: 1rem;
+     margin-top: 1rem;
 }
 
 header{
@@ -18,15 +19,36 @@ header{
     align-items: center;
     height: 100px;
     gap: 2rem;
-    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 h1{
     font-size: 3rem;
     font-weight: 700;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    align-self: center;
 }
 
 header p{
   color: aquamarine;
   text-decoration: underline;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem
+}
+
+main p{
+    text-align: center;
+    margin-top: 2rem;
 }
